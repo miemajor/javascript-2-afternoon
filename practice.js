@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+let me ={
+name: 'Michelle,
+age: 28,
+}
+me.name;
 
 
 ////////// PROBLEM 2 //////////
@@ -26,6 +30,14 @@
 */
 
 //Code here
+let favoriteThings= {
+band:'Zack Brown Band',
+food:'ice cream',
+person:'Imru Currie',
+book:'The Scarlett Letter',
+movie:'The Grinch Who Stole Christmas',
+holiday:'Thanksgiving',
+}
 
 
 
@@ -34,7 +46,8 @@
 */
 
 //Code here
-
+favoriteThings['car']='Lexus 300 es';
+favoriteThings['brand']='Lulu Lemon';
 
 
 /*
@@ -42,7 +55,7 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
 
 
 ////////// PROBLEM 3 //////////
@@ -56,7 +69,12 @@
 */
 
 //Code here
-
+let backPack{};
+let item = 'firstPocket';
+backPack['item']='firstPocket;
+backPack['item]='chapstick';
+let color = 'black';
+backpack['color]='black'
 
 
 /*
@@ -64,7 +82,7 @@
 */
 
 //Code here
-
+alert backPack;
 
 
 /*
@@ -74,7 +92,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 
 
 ////////// PROBLEM 4 //////////
@@ -97,6 +115,9 @@ var user2 = {
 */
 
 //Code Here
+         let user3=user2.assign({}, user2);
+         user3['name']='Tyler S. McGinnis';
+user3['email']='tyler.mcginnis@devmounta.in';
 
 
 
