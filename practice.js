@@ -15,11 +15,12 @@
 */
 
 //Code here
-let me ={
-name: 'Michelle,
-age: 28,
+let me = {
+  name:'Michelle',
+  age:28,
 }
-me.name;
+alert (me.name);
+
 
 
 ////////// PROBLEM 2 //////////
@@ -30,14 +31,16 @@ me.name;
 */
 
 //Code here
-let favoriteThings= {
-band:'Zack Brown Band',
-food:'ice cream',
-person:'Imru Currie',
-book:'The Scarlett Letter',
-movie:'The Grinch Who Stole Christmas',
-holiday:'Thanksgiving',
+let favoriteThings = {
+  band:'Zack Brown Band',
+  food:'ice cream',
+  person:'Imru Currie',
+  book:'Scarlett Letter',
+  movie:'The Grinch',
+  holiday:'Thanksgiving',
 }
+
+
 
 
 
@@ -46,8 +49,10 @@ holiday:'Thanksgiving',
 */
 
 //Code here
-favoriteThings['car']='Lexus 300 es';
-favoriteThings['brand']='Lulu Lemon';
+favoriteThings['car']='Lexus 300es';
+favoriteThings['brand']='Lexus';
+
+
 
 
 /*
@@ -55,7 +60,10 @@ favoriteThings['brand']='Lulu Lemon';
 */
 
 //Code here
-favoriteThings.food = 'Chicken Nuggets';
+
+favoriteThings['food']='Chicken Nuggets';
+favoriteThings['book']='Harry Potter';
+
 
 
 ////////// PROBLEM 3 //////////
@@ -69,12 +77,13 @@ favoriteThings.food = 'Chicken Nuggets';
 */
 
 //Code here
-let backPack{};
+let backPack = {};
 let item = 'firstPocket';
-backPack['item']='firstPocket;
-backPack['item]='chapstick';
-let color = 'black';
-backpack['color]='black'
+backPack['firstPocket']='item';
+backPack['firstPocket']='chapstick';
+backPack.color='red';
+
+
 
 
 /*
@@ -82,7 +91,9 @@ backpack['color]='black'
 */
 
 //Code here
-alert backPack;
+alert (backPack);
+
+
 
 
 /*
@@ -93,6 +104,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 console.log(backPack);
+
 
 
 ////////// PROBLEM 4 //////////
@@ -115,9 +127,16 @@ var user2 = {
 */
 
 //Code Here
-         let user3=user2.assign({}, user2);
-         user3['name']='Tyler S. McGinnis';
-user3['email']='tyler.mcginnis@devmounta.in';
+let user3 = Object.assign({},user2);
+user3.name="Michelle Major";
+user3.email="Michellemajor.e@gmail.com";
+console.log(user3);
+
+
+
+
+
+
 
 
 
